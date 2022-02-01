@@ -1,0 +1,30 @@
+// 3. Variables, van siempre arriba de todo
+@import './variables/colores';
+@import './variables/fuentes';
+
+p{
+    color: red;
+}
+
+// 1. Anidación
+.contenedor {
+    background-color: $azul; // $azul estamos haciendo uso de la variable, definida en el archivo _variables.scss
+    font-family: $sans-serif;
+    .titulo {
+        color: $color-primario;
+        &:hover {
+            color: $color-fondo;
+        }
+    }
+
+    &:hover {
+        background-color: coral;
+    }
+}
+
+// 2. Imports
+@import './utilidades/header';
+
+
+
+

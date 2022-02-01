@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+3:wght@200&family=Spline+Sans&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans 3', sans-serif;
+font-family: 'Spline Sans', sans-serif;
+*/
+p {
+  color: red; }
+
+.contenedor {
+  background-color: #4F86C6;
+  font-family: "Poppins", sans-serif; }
+  .contenedor .titulo {
+    color: #17301C; }
+    .contenedor .titulo:hover {
+      color: #4FB0C6; }
+  .contenedor:hover {
+    background-color: coral; }
+
+header {
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: space-between; }
+  header ul {
+    display: flex; }
+    header ul li {
+      list-style: none;
+      margin: 10px; }
